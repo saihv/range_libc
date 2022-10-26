@@ -5,7 +5,7 @@ import numpy as np
 cimport numpy as np
 from cython.operator cimport dereference as deref
 
-USE_ROS_MAP = True
+USE_ROS_MAP = False
 if USE_ROS_MAP:
     from nav_msgs.msg import OccupancyGrid
     import tf.transformations
